@@ -1,12 +1,12 @@
 
 
 public class Polymorphism extends Method2method {
-	
+	final long a = 10;
 	public void show()
 	{
 		super.show();
 		System.out.println("PRINT DEFAULT SHOW");
-		this.show(20l);
+		this.show(a);
 		this.show(30);
 	}
 
